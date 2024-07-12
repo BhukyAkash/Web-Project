@@ -1,0 +1,76 @@
+/* Reset CSS */
+@import url('http://meyerweb.com/eric/tools/css/reset.css');
+
+/* Font Awesome for star icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.review {
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    color: #6ffdc7;
+    margin-bottom: 40px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+}
+
+.box {
+    background-color: #dfdede;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+	max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+.box h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+}
+
+.stars i {
+    color: #ff9900;
+    margin: 0 2px;
+    font-size: 20px;
+}

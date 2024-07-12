@@ -1,0 +1,271 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.auth-button {
+    display: flex;
+    align-items: center;
+}
+
+.auth-button .login {
+    background-color: #ffeb3b;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.auth-button .login:hover {
+    background-color: #fdd835;
+}
+
+/* Main Styles */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    margin-bottom: 30px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.get-started {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.get-started:hover {
+    background-color: #45a049;
+}
+
+.watch-video {
+    background-color: #ffeb3b;
+    color: #4CAF50;
+}
+
+.watch-video:hover {
+    background-color: #fdd835;
+}
+
+.mockup-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mockup-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* styles.css */
+
+.steps-section {
+    padding: 50px 0;
+}
+
+.steps-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    flex: 2; /* 2/3 of the container */
+    margin-right: 20px; /* Adjust spacing between image and steps */
+}
+
+.image img {
+    width: 100%; /* Ensure the image fills its container */
+    display: block; /* Remove extra space below image */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
+.steps {
+    flex: 1; /* 1/3 of the container */
+}
+
+.steps h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.step {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.step img {
+    width: 80px; /* Adjust icon size */
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.step p {
+    color: #666;
+    font-size: 1em;
+}
+
+
+/* Registration Form Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}

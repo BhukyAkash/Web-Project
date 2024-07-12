@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contact Section */
+.contact {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-wrapper {
+    margin-bottom: 30px;
+}
+
+.contact-wrapper h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #69f1bd;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #69f1bd;
+    box-shadow: 0 0 5px rgba(105, 241, 189, 0.5);
+    outline: none;
+    font-style: normal;
+}
+
+textarea {
+    min-height: 150px;
+    font-family: Arial, sans-serif;
+}
+
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #69f1bd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5cd0a8;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.social-links .telegram {
+    background-color: #2CA5E0;
+    border-color: #2CA5E0;
+}
+
+.social-links .youtube {
+    background-color: #fe6c6c;
+    border-color: #ff9c9c;
+}
+
+.social-links .whatsapp {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact-wrapper h3 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input, .form-group textarea {
+        padding: 10px;
+        font-size: 0.9rem;
+        
+    }
+
+    button[type="submit"] {
+        padding: 10px 16px;
+        font-size: 1rem;
+    }
+
+    .contact-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+    }
+}
